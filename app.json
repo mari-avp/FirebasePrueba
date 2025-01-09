@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.marianvelez.GruasUCAB"
     },
     "android": {
       "googleServicesFile": "./google-services.json",
@@ -30,6 +31,7 @@
       "eas": {
         "projectId": "954b80bc-9ee4-4429-a045-7a5190f435c6"
       }
-    }
+    },
+    "owner": "marianvelez"
   }
 }
