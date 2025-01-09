@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353167037324",
+    "project_id": "gruas-ucab-fbaca",
+    "storage_bucket": "gruas-ucab-fbaca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353167037324:android:56fd5481bd817434237ca9",
+        "android_client_info": {
+          "package_name": "com.marianvelez.GruasUCAB"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSNd0P4_BJiB6-9nZ8WCpowQ58ocU0Bbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
