@@ -86,7 +86,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.gruasucab"
+    namespace "com.marianvelez.GruasUCAB"
     defaultConfig {
         applicationId 'com.marianvelez.GruasUCAB'
         minSdkVersion rootProject.ext.minSdkVersion
@@ -147,6 +147,16 @@ android {
 }
 
 dependencies {
+    implementation platform("com.google.firebase:firebase-bom:33.7.0")
+    implementation "com.google.firebase:firebase-messaging"
+    implementation "com.google.firebase:firebase-analytics"
+    // Firebase Messaging y otras librerías necesarias
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+
+    // Kotlin Standard Library
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
 

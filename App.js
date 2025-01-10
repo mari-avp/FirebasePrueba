@@ -3,13 +3,6 @@ import { Alert, StyleSheet, Text, View } from 'react-native';
 import messaging from "@react-native-firebase/messaging";
 import React, { useEffect } from 'react';
 
-
-
-
-
-
-
-
 export default function App() {
   const requestUserPermission = async () => {
     const authStatus = await messaging().requestPermission();
@@ -45,7 +38,7 @@ export default function App() {
       }
     });
 
-    //Assume a message-notification contains a "type" property inthe data payload of the screen to open
+    //Assume a message-notification contains a "type" property in the data payload of the screen to open
     
     messaging().onNotificationOpenedApp((remoteMessage) => {
       console.log(
@@ -65,7 +58,7 @@ export default function App() {
     return unsubscribe;
   }, []);
   return (
-    <View style = {StyleSheet.container}>
+    <View styles = {StyleSheet.container}>
       <Text>FCM Tutorial</Text>
       <StatusBar style="auto"/>
     </View>
